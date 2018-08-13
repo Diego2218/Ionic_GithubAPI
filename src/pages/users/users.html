@@ -1,0 +1,22 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>User Github</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+  
+    <ion-card>
+      <img src = "{{ usuario?.avatar_url }}" />
+
+      <ion-card-content>
+        <ion-card-title>{{ usuario?.name }}</ion-card-title>
+        <ion-label>{{usuario?.location}}</ion-label>
+        <p>{{ usuario?.bio}}</p>
+      </ion-card-content>
+    </ion-card>
+  
+  </ion-content>
